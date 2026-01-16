@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    background-color: rgb(216, 255, 255);
+}
+
+
+
+            /*  Section - 0  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   
+    padding-right: 5.5%;
+    padding-left: 5.5%;
+}
+
+nav>ol{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+            /* Section - 1 */
+.sec1{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.sec1>img{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+   
+    color: white;
+    border-radius: 25px;
+    padding: 0px 20px;
+    background-color: darkblue;
+   
+}
+
+.btn1>img{
+/* Cause i gave extra padding for btn1 by 20px */
+    margin-left: -20px;  
+}
+
+.L1,.L2,.L3,.L4,.L5{
+    position: relative;
+   
+}
+
+.sublist{
+    width: 202px;
+    /* height: 350px; */
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+   
+    display: none;
+    position: absolute;
+    top: 315%;
+    left: -20px;
+}
+
+.sublist>ol{
+    list-style-type: none;
+}
+
+.L1:hover>.sublist{
+    display: block;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    display: none;
+
+    position: absolute;
+    top: 260%;
+    left: 62.5px;
+    rotate: 45deg;
+}
+
+.L1:hover>.square{
+    display: block;
+}
+
+
+.L2:hover>.sublist{
+    display: block;
+}
+
+.L2:hover>.square{
+    display: block;
+}
+
+.L3:hover>.sublist{
+    display: block;
+}
+
+.L3:hover>.square{
+    display: block;
+}
+
+.L4:hover>.sublist{
+    display: block;
+}
+
+.L4:hover>.square{
+    display: block;
+}
+
+.L5:hover>.sublist{
+    display: block;
+}
+
+.L5:hover>.square{
+    display: block;
+}
+
+
+
+            /*  Section - 2 */
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+
+.sec2>ol{
+    list-style-type: none;
+    
+}
+
+.ol1{
+    width: 825px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.block{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+
+            /* Section - 3 */
+.sec3{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    
+}
+
