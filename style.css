@@ -25,7 +25,7 @@ nav>ol{
 }
 
 
-            /* Section - 1 */
+            /*  Section - 1  */
 .sec1{
     
     display: flex;
@@ -130,7 +130,7 @@ nav>ol{
 
 
 
-            /*  Section - 2 */
+        /*  Section - 2 */
 .sec2{
     display: flex;
     justify-content: center;
@@ -158,7 +158,7 @@ nav>ol{
 
 
 
-            /* Section - 3 */
+        /*  Section - 3  */
 .sec3{
     display: flex;
     gap: 15px;
